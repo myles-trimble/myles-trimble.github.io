@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Myles Trimble
-description: "I am Myles, a data scientist with an innate curiosity and a passion for collaborative problem-solving.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "I am Myles, a data scientist with an innate curiosity and a passion for collaborative problem-solving.  My portfolio focuses on interesting projects I've recently undertaken, with a strong emphasis on business impact. Please visit my LinkedIn page or download my Resume by using the links below"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -51,5 +51,6 @@ defaults:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
 
 
