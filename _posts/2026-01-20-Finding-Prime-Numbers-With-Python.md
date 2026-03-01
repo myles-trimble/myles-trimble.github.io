@@ -49,7 +49,7 @@ print(number_range)
 >>> {3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20}
 ```
 
-We know that the very first value in our range is going to be a prime...as there is nothing smaller than it so therefore nothing else could possible divide evenly into it.  As we know it's a prime, let's add it to our list of primes...
+We know that the very first value in our range is going to be a prime as there is nothing smaller than it so therefore nothing else could possible divide evenly into it.  As we know it's a prime, let's add it to our list of primes.
 
 ```ruby
 primes_list.append(prime)
@@ -63,7 +63,7 @@ Now we're going to do a special trick to check our remaining number_range for no
 multiples = set(range(prime*2, n+1, prime))
 ```
 
-Remember that when we created a range the syntax is range(start, stop, step). For the starting point - we don't need our number as that has already been added as a prime, so let's start our range of multiples at 2 * our number as that is the first multiple - in our case, our number is 2 so the first multiple will be 4. If the number we were checking was 3 then the first multiple would be 6 - and so on.
+Remember that when we created a range the syntax is range(start, stop, step). For the starting point, we don't need our number as that has already been added as a prime, so let's start our range of multiples at 2 * our number as that is the first multiple - in our case, our number is 2 so the first multiple will be 4. If the number we were checking was 3 then the first multiple would be 6 - and so on.
 
 For the stopping point of our range, we specify that we want our range to go up to 20, so we use n+1 to specify that we want 20 to be included.
 
