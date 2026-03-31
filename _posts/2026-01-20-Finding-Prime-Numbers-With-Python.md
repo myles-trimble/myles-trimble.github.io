@@ -164,7 +164,7 @@ def primes_finder(n):
     print(f"There are {prime_count} prime numbers between 1 and {n}, the largest of which is {largest_prime}")
 ```
 
-Now we can jut pass the function the upper bound of our search and it will do the rest!
+Now we can just pass the function the upper bound of our search and it will do the rest!
 
 Let's go for something large, say a million...
 
@@ -183,11 +183,11 @@ I hoped you enjoyed learning about Primes and one way to search for them using P
 
 In the real world - we would need to make a consideration around the pop() method when used on a Set as in some cases it can be a bit inconsistent.
 
-The pop() method will usually extract the lowest element of a Set. Sets however are, by definition, unordered. The items are stored internally with some order, but this internal order is determined by the hash code of the key (which is what allows retrieval to be so fast). 
+The pop() method will usually extract the lowest element of a Set. However, Sets are, by definition, unordered. The items are stored internally with some order, but this internal order is determined by the hash code of the key (which is what allows retrieval to be so fast). 
 
-This hashing method means that we can't 100% rely on it successfully getting the lowest value. In very rare cases, the hash provides a value that is not the lowest.
+This hashing method means that we can't 100% rely on it successfully getting the lowest value.
 
-Even though here we're just coding up something fun, it is most definitely a useful thing to note when using Sets and pop() in Python in the future!
+Even though here we're just coding up something fun, it is most definitely a useful thing to note when using Sets and pop() in Python in the future.
 
 The simplest solution to force the minimum value to be used is to replace the line...
 
